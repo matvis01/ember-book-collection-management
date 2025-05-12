@@ -1,0 +1,1 @@
+# ember-book-collection-management
