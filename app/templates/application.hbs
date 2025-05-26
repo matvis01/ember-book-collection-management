@@ -1,5 +1,66 @@
-{{page-title "EmberBookCollectionManagement"}}
+{{page-title "Book Collection Management"}}
 
-<h2 id="title" class="text-xl">Welcome to Ember</h2>
+<div class="min-h-screen bg-gray-50">
+  <header class="sticky top-0 z-50 bg-white shadow-lg border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-6">
+        {{! Logo/Brand }}
+        <div class="flex items-center space-x-2 sm:space-x-3">
+          <div class="text-2xl sm:text-3xl">📚</div>
+          <div>
+            <h1 class="text-lg sm:text-2xl font-bold text-gray-900">Book
+              Collection</h1>
+            <p class="text-xs sm:text-sm text-gray-500 hidden sm:block">Manage
+              your personal library</p>
+          </div>
+        </div>
 
-{{outlet}}
+        {{! Navigation }}
+        <nav class="flex items-center space-x-2 sm:space-x-3">
+          <LinkTo
+            @route="books.index"
+            class="inline-flex items-center px-3 py-2 sm:px-4 border border-gray-300 rounded-md shadow-sm bg-white text-xs sm:text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200"
+          >
+            <svg
+              class="w-4 h-4 sm:mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253z"
+              ></path>
+            </svg>
+            <span class="hidden sm:inline">All Books</span>
+          </LinkTo>
+          <LinkTo
+            @route="books.new"
+            class="inline-flex items-center px-3 py-2 sm:px-4 border border-transparent rounded-md shadow-sm bg-blue-600 text-xs sm:text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200"
+          >
+            <svg
+              class="w-4 h-4 sm:mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              ></path>
+            </svg>
+            <span class="hidden sm:inline">Add New Book</span>
+          </LinkTo>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    {{outlet}}
+  </main>
+</div>
