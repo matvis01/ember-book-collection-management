@@ -25,7 +25,11 @@
     "lint:types": "tsc --noEmit",
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\" --prefixColors auto",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "monitor:chrome": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/monitor-process.ps1 -ProcessName chrome",
+    "monitor:port": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/monitor-by-port.ps1 -Port 4200",
+    "monitor:dev": "npm-run-all --parallel start monitor:chrome",
+    "analyze:metrics": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/summarize-csv.ps1"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
@@ -86,6 +90,7 @@
     "eslint-plugin-qunit": "^8.1.2",
     "globals": "^15.15.0",
     "loader.js": "^4.7.0",
+    "npm-run-all2": "^7.0.2",
     "prettier": "^3.5.3",
     "prettier-plugin-ember-template-tag": "^2.0.5",
     "qunit": "^2.24.1",
