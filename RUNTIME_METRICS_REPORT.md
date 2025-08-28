@@ -12,9 +12,15 @@
 - **Maximum**: 19.541%
 
 ## Memory Usage Statistics (MB)
+### Working Set
 - **Average**: 9440.259 MB
 - **Minimum**: 9236.590 MB
 - **Maximum**: 9626.640 MB
+
+### Private Memory
+- **Average**: 9627.842 MB
+- **Minimum**: 9401.590 MB
+- **Maximum**: 9839.420 MB
 
 ## Framework Context
 - **Framework**: Ember.js (Convention-over-configuration)
@@ -23,6 +29,6 @@
 - **Monitoring Target**: Chrome browser processes
 
 ## Performance Insights
-Generated on 2025-08-20 00:24:07
+Generated on 2025-08-24 19:55:00
 
-Raw data available in: process_metrics.csv
+Raw data available in: d:\projects\JavaScript projects\magisterka\ember-book-collection-management\process_metrics.csv

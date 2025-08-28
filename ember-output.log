@@ -1,0 +1,216 @@
+
+> ember-book-collection-management@0.0.0 start
+> ember serve
+
+
+Running without permission to symlink will degrade build performance.
+See https://cli.emberjs.com/release/appendix/windows/ for details.
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mWebpack[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+file changed src\addon\es-compat2.js
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (29448ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 23910ms
+Babel: ember-tracked-storage-polyfill (1) | 3021ms
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (2319ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 2058ms
+
+file changed components\book-form.hbs
+file changed components\book-form.hbs
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (320ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 206ms
+@embroider/compat/app (1) | 67ms
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (201ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 109ms
+@embroider/compat/app (1) | 48ms
+Funnel (107) | 15ms (0 ms)
+broccoli-persistent-filter:Mapper (4) | 10ms (2 ms)
+
+file changed components\book-form.hbs
+file changed components\book-form.hbs
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (286ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 193ms
+@embroider/compat/app (1) | 49ms
+Funnel (107) | 14ms (0 ms)
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (185ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 100ms
+@embroider/compat/app (1) | 45ms
+Funnel (107) | 12ms (0 ms)
+broccoli-persistent-filter:Mapper (4) | 10ms (2 ms)
+
+file changed components\book-form.hbs
+file changed components\book-form.hbs
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (278ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 186ms
+@embroider/compat/app (1) | 48ms
+Funnel (107) | 15ms (0 ms)
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (189ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 106ms
+@embroider/compat/app (1) | 44ms
+Funnel (107) | 11ms (0 ms)
+broccoli-persistent-filter:Mapper (4) | 10ms (2 ms)
+
+file changed components\book-form.hbs
+file changed components\book-form.hbs
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (293ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 206ms
+@embroider/compat/app (1) | 46ms
+Funnel (107) | 15ms (0 ms)
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (217ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 113ms
+@embroider/compat/app (1) | 65ms
+Funnel (107) | 12ms (0 ms)
+
+file changed components\book-form.hbs
+file changed components\book-form.hbs
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (287ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 193ms
+@embroider/compat/app (1) | 51ms
+Funnel (107) | 14ms (0 ms)
+
+warning: in index.html  <link rel="stylesheet" href="assets/ember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsvendor.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstest-support.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetsember-book-collection-management.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html <script src="{{rootURL}}assetstests.js"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsvendor.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetsember-book-collection-management.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+warning: in tests/index.html  <link rel="stylesheet" href="{{rootURL}}assetstest-support.css"> does not exist on disk. If this is intentional, use a data-embroider-ignore attribute.
+
+Build successful (200ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+@embroider/webpack (1) | 115ms
+@embroider/compat/app (1) | 45ms
+Funnel (107) | 12ms (0 ms)
+

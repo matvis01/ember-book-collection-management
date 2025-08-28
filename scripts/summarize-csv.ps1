@@ -16,15 +16,20 @@ if ($data.Count -eq 0) {
 }
 
 $cpuValues = $data | ForEach-Object { [double]$_.CPU_Percent }
-$memValues = $data | ForEach-Object { [double]$_.WorkingSet_MB }
+$workingSetValues = $data | ForEach-Object { [double]$_.WorkingSet_MB }
+$privateValues = $data | ForEach-Object { [double]$_.Private_MB }
 
 $cpuAvg = ($cpuValues | Measure-Object -Average).Average
 $cpuMin = ($cpuValues | Measure-Object -Minimum).Minimum
 $cpuMax = ($cpuValues | Measure-Object -Maximum).Maximum
 
-$memAvg = ($memValues | Measure-Object -Average).Average
-$memMin = ($memValues | Measure-Object -Minimum).Minimum
-$memMax = ($memValues | Measure-Object -Maximum).Maximum
+$wsAvg = ($workingSetValues | Measure-Object -Average).Average
+$wsMin = ($workingSetValues | Measure-Object -Minimum).Minimum
+$wsMax = ($workingSetValues | Measure-Object -Maximum).Maximum
+
+$privAvg = ($privateValues | Measure-Object -Average).Average
+$privMin = ($privateValues | Measure-Object -Minimum).Minimum
+$privMax = ($privateValues | Measure-Object -Maximum).Maximum
 
 $report = @"
 # Ember Book Collection Management - Runtime Performance Metrics
@@ -41,9 +46,15 @@ $report = @"
 - **Maximum**: $($cpuMax.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture))%
 
 ## Memory Usage Statistics (MB)
-- **Average**: $($memAvg.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
-- **Minimum**: $($memMin.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
-- **Maximum**: $($memMax.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+### Working Set
+- **Average**: $($wsAvg.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+- **Minimum**: $($wsMin.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+- **Maximum**: $($wsMax.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+
+### Private Memory
+- **Average**: $($privAvg.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+- **Minimum**: $($privMin.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
+- **Maximum**: $($privMax.ToString("F3", [System.Globalization.CultureInfo]::InvariantCulture)) MB
 
 ## Framework Context
 - **Framework**: Ember.js (Convention-over-configuration)
